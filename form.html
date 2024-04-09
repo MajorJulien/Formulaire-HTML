@@ -644,10 +644,28 @@
         />
       </div>
       <div>
-        <label>
-          Ville :
-          <input type="text" name="city" />
-        </label>
+        <label>Ville :</label>
+        <input type="text" name="city" />
+      </div>
+      <div>
+        <label>Addresse Mail :</label>
+        <input type="email" name="email-address" required />
+      </div>
+      <div>
+        <label>Numéro de sécurité sociale</label>
+        <input
+          type="text"
+          pattern="[12][0-9]{2}(0[1-9]|1[0-2])[0-9]{2}[0-9]{3}[0-9]{3}([0-9]{2})"
+          maxlength="15"
+        />
+      </div>
+      <div>
+        <label>Numéro de passeport</label>
+        <input
+          type="text"
+          pattern="/[0-9]{2}[A-z]{2}[0-9]{5}/gm"
+          maxlength="9"
+        />
       </div>
       <input type="submit" />
     </form>
