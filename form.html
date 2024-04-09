@@ -8,36 +8,26 @@
   <body>
     <form>
       <div>
-        <label>
-          Prénom
-          <input type="text" name="first_name" />
-        </label>
+        <label>Prénom</label>
+        <input type="text" name="first_name" />
       </div>
       <div>
-        <label>
-          Nom
-          <input type="text" name="last_name" />
-        </label>
+        <label>Nom</label>
+        <input type="text" name="last_name" />
       </div>
       <div>
-        <label>
-          Âge
-          <input type="number" name="age" />
-        </label>
+        <label>Âge</label>
+        <input type="number" name="age" />
       </div>
       <div>
-        <label>
-          Date de naissance :
-          <input type="date" name="birthday" />
-        </label>
+        <label>Date de naissance :</label>
+        <input type="date" name="birthday" />
       </div>
       <div>
         <label>Sexe :</label>
-        <label>
-          <input type="radio" name="gender" value="man" checked /> Homme
-          <input type="radio" name="gender" value="women" checked /> Femme
-          <input type="radio" name="gender" value="other" checked /> Autre
-        </label>
+        <input type="radio" name="gender" value="man" checked /> Homme
+        <input type="radio" name="gender" value="women" checked /> Femme
+        <input type="radio" name="gender" value="other" checked /> Autre
       </div>
       <div>
         <label for="birth_country">Pays de naissance :</label>
@@ -628,10 +618,8 @@
         </select>
       </div>
       <div>
-        <label>
-          Adresse postale :
-          <input type="text" name="postal adress" />
-        </label>
+        <label>Adresse postale :</label>
+        <input type="text" name="postal adress" />
       </div>
       <div>
         <label> Code postal :</label>
@@ -666,6 +654,14 @@
           pattern="/[0-9]{2}[A-z]{2}[0-9]{5}/gm"
           maxlength="9"
         />
+      </div>
+      <div>
+        <label>Date de délivrance du passeport :</label>
+        <input type="date" name="delivery_date_of_passeport" />
+      </div>
+      <div>
+        <label>Date de validité du passeport :</label>
+        <input type="date" name="validity_date_of_passeport" />
       </div>
       <input type="submit" />
     </form>
