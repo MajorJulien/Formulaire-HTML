@@ -9,11 +9,23 @@
     <form>
       <div>
         <label>Prénom</label>
-        <input type="text" name="first_name" required />
+        <input
+          type="text"
+          name="first_name"
+          pattern="[^0-9]*"
+          title="Veuillez saisir uniquement des lettres"
+          required
+        />
       </div>
       <div>
         <label>Nom</label>
-        <input type="text" name="last_name" required />
+        <input
+          type="text"
+          name="last_name"
+          pattern="[^0-9]*"
+          title="Veuillez saisir uniquement des lettres"
+          required
+        />
       </div>
       <div>
         <label>Âge</label>
@@ -698,7 +710,13 @@
       </div>
       <div>
         <label>Ville :</label>
-        <input type="text" name="city" required />
+        <input
+          type="text"
+          name="city"
+          pattern="[^0-9]*"
+          title="Veuillez saisir uniquement des lettres"
+          required
+        />
       </div>
       <div>
         <label>Addresse Mail :</label>
