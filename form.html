@@ -25,14 +25,19 @@
       </div>
       <div>
         <label>Sexe :</label>
-        <input type="radio" name="gender" value="man" checked /> Homme
-        <input type="radio" name="gender" value="women" checked /> Femme
-        <input type="radio" name="gender" value="other" checked /> Autre
+        <input type="radio" name="gender" value="man" required /> Homme
+        <input type="radio" name="gender" value="women" required /> Femme
+        <input type="radio" name="gender" value="other" required /> Autre
       </div>
       <div>
         <label for="birth_country">Pays de naissance :</label>
 
-        <select id="birth_country" name="birth_country" class="form-control">
+        <select
+          id="birth_country"
+          name="birth_country"
+          class="form-control"
+          required
+        >
           <option value="selection" disabled selected>
             -- Sélectionner --
           </option>
@@ -329,7 +334,7 @@
       <div>
         <label for="country">Nationalité :</label>
 
-        <select id="country" name="country" class="form-control">
+        <select id="country" name="country" class="form-control" required>
           <option value="selection" disabled selected>
             -- Sélectionner --
           </option>
@@ -626,7 +631,7 @@
       <div>
         <label for="job">Métier exercé :</label>
 
-        <select id="job" name="job" class="form-control">
+        <select id="job" name="job" class="form-control" required>
           <option value="selection" disabled selected>
             -- Sélectionner --
           </option>
