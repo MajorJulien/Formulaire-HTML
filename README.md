@@ -1,10 +1,6 @@
-<center>
-
 # Formulaire HTML
 
-<img src=/pics/form-html.png />
-
-</center>
+<img src="/pics/form-html.png" width="250" height="250">
 
 # Table des matières
 
