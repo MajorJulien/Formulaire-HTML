@@ -2,6 +2,8 @@
 
 # Formulaire HTML
 
+<img src=/pics/form-html.png />
+
 </center>
 
 # Table des matières
