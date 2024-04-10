@@ -32,12 +32,7 @@
       <div>
         <label for="birth_country">Pays de naissance :</label>
 
-        <select
-          id="birth_country"
-          name="birth_country"
-          class="form-control"
-          required
-        >
+        <select id="birth_country" name="birth_country" class="form-control">
           <option value="selection" disabled selected>
             -- Sélectionner --
           </option>
@@ -334,7 +329,7 @@
       <div>
         <label for="country">Nationalité :</label>
 
-        <select id="country" name="country" class="form-control" required>
+        <select id="country" name="country" class="form-control">
           <option value="selection" disabled selected>
             -- Sélectionner --
           </option>
@@ -631,7 +626,7 @@
       <div>
         <label for="job">Métier exercé :</label>
 
-        <select id="job" name="job" class="form-control" required>
+        <select id="job" name="job" class="form-control">
           <option value="selection" disabled selected>
             -- Sélectionner --
           </option>
@@ -722,7 +717,7 @@
         <label>Numéro de passeport</label>
         <input
           type="text"
-          pattern="/[0-9]{2}[A-z]{2}[0-9]{5}/gm"
+          pattern="[0-9]{2}[A-Z]{2}[0-9]{5}"
           maxlength="9"
           required
         />
