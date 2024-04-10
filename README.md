@@ -1,6 +1,6 @@
 # Formulaire HTML
 
-<img src="/pics/form-html.png" width="250" height="250">
+<img src="/pics/form-html.png" width="350" height="350">
 
 # Table des matières
 
