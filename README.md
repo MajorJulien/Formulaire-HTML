@@ -45,12 +45,19 @@ Fonctionnalités :
 
 # Utilisation
 
+L'utilisateur doit remplir et sélectionner chaque case.
+Il doit obligatoirement respecter le format de saisie selon la case afin de pouvoir envoyer les informations.
+
+Si ce critère n'est pas respecté ou une case est vide, un message d'erreur informe l'utilisateur.
+
+Après avoir complété le formulaire il doit cliquer sur "Envoyer" pour transmettre ses informations.
+
 # Contributions
 
 # Crédits
 
 # Statut du projet
 
-Le développement du formulaire est terminé
+Le développement du formulaire est terminé et déployé
 
 # Licence
