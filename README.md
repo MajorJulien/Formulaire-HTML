@@ -4,6 +4,14 @@
 
 # Table des matières
 
+- [Introduction](#introduction)
+- [Caractéristiques](#Caractéristiques)
+- [Utilisation](#Utilisation)
+- [Contributions](#Contributions)
+- [Crédits](#Crédits)
+- [Statut du projet](#Statut-du-projet)
+- [Licence](#Licence)
+
 # Introduction
 
 # Caractéristiques
